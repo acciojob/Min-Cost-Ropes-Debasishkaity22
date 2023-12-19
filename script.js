@@ -10,7 +10,7 @@ function mincost(arr)
   let sum1=0;
     for(let i=0;i<n-1;i++){
       sum1=arr[0]+arr[1];
-    x.push(sum1);
+     sum+=sum1;
     arr.splice(0,2,sum1);
 		arr.sort(function(a,b){
 		return a-b;
